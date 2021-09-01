@@ -74,10 +74,21 @@ body
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.portfolio-videos-wrapper
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .portfolio-item-wrapper 
 {
   position: relative;
 }
+
+.portfolio-video-wrapper 
+{
+  position: relative;
+}
+
 
 .portfolio-img-background 
 {
@@ -85,6 +96,15 @@ body
   background-position: center;
   background-repeat: no-repeat;
   height: 350px;
+  width: 100%;
+}
+
+.portfolio-video-background
+{
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
   width: 100%;
 }
 
