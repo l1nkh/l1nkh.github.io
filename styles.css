@@ -71,12 +71,14 @@ body
 .portfolio-items-wrapper
 {
   display: grid;
+  flex-wrap: wrap;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .portfolio-videos-wrapper
 {
   display: grid;
+  flex-wrap: wrap;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .portfolio-item-wrapper 
