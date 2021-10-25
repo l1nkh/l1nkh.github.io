@@ -184,3 +184,29 @@ body
 {
   color: white;
 }
+
+/* Media queries */
+@media only screen and (min-width: 200px) {
+  .profile-image-wrapper img 
+  {
+      width: calc(100% + 1500px);
+  }
+}
+@media only screen and (min-width: 200px) {
+  .portfolio-video-background video
+  {
+      width: calc(100%);
+  }
+}
+@media only screen and (min-width: 200px) {
+  .profile-content-wrapper 
+  {
+      width: calc(100% + 1500px);
+  }
+}
+@media only screen and (min-width: 200px) {
+  .logo-wrapper img 
+  {
+      width: calc(50% + 100px);
+  }
+}
